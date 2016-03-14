@@ -7,7 +7,13 @@
 <!-- Basic Page Needs
 ================================================== -->
 <meta charset="utf-8">
-<title>Evolve - Responsive Multi-purpose HTML Theme</title>
+<title>
+  {% if page.title %}
+    {{ page.title }}
+  {% else %}
+    Default Page Title
+  {% endif %}
+</title>
 <!-- Favicon
     ============================================== -->
 <link rel="icon" href="/images/evolve.ico">
