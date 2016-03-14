@@ -178,7 +178,7 @@
 /* 02 Main Menu
 ================================================== */
 #navigation {
-	float: right;
+	float: left;
 }
 .js .selectnav {
 	display: none;
