@@ -58,7 +58,7 @@ white-space:nowrap;
 
 .tp-caption.small_text {
 position:absolute;
-color:#fff;
+color:#6e6e6e;
 font-weight:300;
 font-size:14px;
 line-height:20px;
@@ -71,7 +71,7 @@ white-space:nowrap;
 
 .tp-caption.medium_text {
 position:absolute;
-color:#000;
+color:#999;
 font-weight:700;
 font-size:22px;
 line-height:22px;
