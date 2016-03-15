@@ -4072,8 +4072,8 @@ input.add-comment-btn {
 	opacity:0.7;
 }
 .button.line-gray {
-	color:#b9bec3;
-	border:1px solid #eceef0;
+	color:#999;
+	border:1px solid #999;
 	
 }
 .button.line-gray:hover {
