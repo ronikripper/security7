@@ -104,7 +104,7 @@
 								duration: durationAnim,
 								complete: function () {
 									header.addClass('compact').css("overflow", "visible");
-									//$("#header .topbar").css({ display: "none"});
+									$("#header .topbar").css({ display: "none"});
 									$("#header").css({ opacity: "0.95"});
 									$("#header .search-button").css({ position:"absolute",top: "20px"});
 																		
@@ -140,7 +140,7 @@
 							duration: durationAnim,
 							complete: function () {
 								header.removeClass('compact').css("overflow", "visible");
-								//$("#header .topbar").css({ display: "block"});
+								$("#header .topbar").css({ display: "block"});
 								$("#header").css({ opacity: "1"});
 								$("#header .search-button").css({ position:"absolute",top: "40px"});
 								
