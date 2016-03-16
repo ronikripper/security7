@@ -60,6 +60,41 @@ title: Interior page w/ right sidebar
          
  <!-- right sidebar container -->
           <div class="four columns">
+               
+               <div class="widget">
+                    <h3 class="headline">Contact Us</h3>
+                    <span class="brd-headling"></span>
+                    <div class="clearfix"></div>
+                    
+                    <!-- Contact Form -->
+               <section id="contact">
+                    <!-- Success Message -->
+                    <mark id="message"></mark>
+                    <!-- Form -->
+                    <form method="post" action="php/contact.php" name="contactform" id="contactform">
+                         <fieldset>
+                         <div>
+                              <label for="name" accesskey="U">Name:</label>
+                              <input name="name" type="text" id="name" style="width:96%;" />
+                         </div>
+                         <div>
+                              <label for="email" accesskey="E">Email: <span>*</span></label>
+                              <input name="email" type="email" id="email" pattern="^[A-Za-z0-9](([_\.\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([\.\-]?[a-zA-Z0-9]+)*)\.([A-Za-z]{2,})$" style="width:96%;" />
+                         </div>
+                         <div>
+                              <label for="comments" accesskey="C">Message: <span>*</span></label>
+                              <textarea name="comments" cols="40" rows="3" id="comments" spellcheck="true" style="width:96%;"></textarea>
+                         </div>
+                         </fieldset>
+                         <input type="submit" class="submit" id="submit" value="Send Message" />
+                         <div class="clearfix"></div>
+                    </form>
+               </section>
+               <!-- Contact Form / End -->
+               </div>
+               
+               
+               
                <!-- Company Intro -->
                <div class="widget">
                     <h3 class="headline">LATEST BLOG ENTRY</h3>
