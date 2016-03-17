@@ -1,15 +1,5 @@
 paginate: 5
 paginate_path: "/blog/page:num"
-collections:
-  services:
-    output: true
 name: Security7
 description: "Security7 is a network and security systems integrator. We are experienced IT professionals and help businesses."
 url: "http://www.security7.net"
-defaults:
-  -
-    scope:
-      path: ""
-      type: "services"
-    values:
-      layout: "post"
