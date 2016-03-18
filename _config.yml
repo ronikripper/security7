@@ -8,6 +8,8 @@ collections:
     output: true
   logos:
     output: true
+  slideshows:
+    output: true    
 defaults:
   -
     scope:
