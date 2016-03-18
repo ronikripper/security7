@@ -1702,6 +1702,7 @@ html[xmlns] .slides {
 	z-index: 5;
 	position: relative;
 }
+.circle-1 img { height: 60px; margin: 0 auto; margin-top: 22px; }
 .square-1 i {
 	font-size: 40px;
 	margin: 22px 0;
