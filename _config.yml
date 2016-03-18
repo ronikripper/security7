@@ -6,6 +6,8 @@ url: "http://www.security7.net"
 collections:
   testimonials:
     output: true
+  logos:
+    output: true
 defaults:
   -
     scope:
