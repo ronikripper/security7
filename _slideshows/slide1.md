@@ -1,6 +1,6 @@
 ---
-title: Got an IT Security, Performance or Integration Problem?
+title: Slide 1
 image_path: ""
 ---
 
-When it’s taking too long to troubleshoot your Cisco, Juniper, Check Point and Fortinet firewall.
+Slide 1
