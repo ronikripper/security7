@@ -10,11 +10,3 @@ collections:
     output: true
   testimonials:
     output: true
-defaults:
-  -
-    scope:
-      path: ""
-      type: "testimonials"
-    values:
-      layout: "default"
-  
