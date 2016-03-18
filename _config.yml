@@ -7,3 +7,10 @@ collections:
   - slideshows
   - logos
   - testimonials
+defaults:
+  -
+    scope:
+      path: ""
+      type: "slideshows"
+    values:
+      layout: "post"
