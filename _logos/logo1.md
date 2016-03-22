@@ -1,8 +1,7 @@
 ---
 title: Wordpress
 image_path: /images/partners/logo-01.png
-order:
+order: '1'
 ---
 
 
-Logo 1
