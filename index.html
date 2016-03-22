@@ -13,6 +13,7 @@ title: Home Page
           <div class="tp-banner" >
                <ul>
                     
+                    {% assign sorted_collection = site.slideshows | sort: 'order' %}
                     {% for slideshow in site.slideshows | sort: 'order' %}
                     <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" >
                          
