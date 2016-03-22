@@ -2,7 +2,7 @@
 title: Testimonial 1
 image_path: /images/happy-clients-01.jpg
 author: 'John Walker, <strong>CEO</strong>'
-order:
+order: '1'
 ---
 
 
