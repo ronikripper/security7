@@ -25,7 +25,7 @@ slideshow:
           <div class="tp-banner" >
                <ul>
                     
-                    {% for item in page.slideshow %}
+                    {% for slideshow in site.slideshows %}
                     <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" >
                          
                          <img src="images/rev/bg-slider-01.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
@@ -40,7 +40,7 @@ slideshow:
 						data-easing="Power4.easeOut"
 						data-endspeed="500"
 						data-endeasing="Power4.easeOut"
-                      	style="z-index: 3"><img src="{{ item.image_path }}" alt=""> </div>
+                      	style="z-index: 3"><img src="{{ slideshow.image_path }}" alt=""> </div>
                         
                          <div class="tp-caption medium_text ucase customin"
 						data-x="0"
@@ -50,7 +50,7 @@ slideshow:
 						data-start="1200"
 						data-easing="Power3.easeInOut"
 						data-endspeed="300"
-						style="z-index: 3">{{ item.title }}</div>
+						style="z-index: 3">{{ slideshow.title }}</div>
                         
                          <div class="tp-caption small_text customin"
 						data-x="0"
@@ -60,7 +60,7 @@ slideshow:
 						data-start="1600"
 						data-easing="Power3.easeInOut"
 						data-endspeed="300"
-						style="z-index: 3">{{ item.text }}</div>
+						style="z-index: 3">{{ slideshow.text }}</div>
                         
                          <div class="caption text skewfromrightshort customout"
 						data-x="0"
@@ -70,7 +70,7 @@ slideshow:
 						data-start="2000"
 						data-easing="Power3.easeInOut"
 						data-endspeed="300"
-						style="z-index: 3"><a href="{{ item.link_url }}" class="button line-gray">{{ item.link_label }}</a> </div>
+						style="z-index: 3"><a href="{{ slideshow.link_url }}" class="button line-gray">{{ slideshow.link_label }}</a> </div>
                     </li>
                     {% endfor %}
                     
