@@ -13,7 +13,7 @@ title: Home Page
           <div class="tp-banner" >
                <ul>
                     
-                    {% for slideshow in site.slideshows %}
+                    {% for slideshow in site.slideshows | sort: 'order' %}
                     <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" >
                          
                          <img src="images/rev/bg-slider-01.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
