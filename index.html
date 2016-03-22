@@ -213,7 +213,7 @@ title: Home Page
                               <ul>
                                  {% assign logos = site.logos | sort: 'order' %}
                                  {% for logo in logos %}
-                                    <li data-animated="fadeInUp"><img src="{{ slideshow.image_path }}" alt="" /></li>
+                                    <li data-animated="fadeInUp"><img src="{{ logo.image_path }}" alt="" /></li>
                                   {% endfor %}
                               </ul>
                               <div class="clearfix"></div>
