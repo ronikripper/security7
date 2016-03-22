@@ -1,7 +1,7 @@
 ---
-title: Logo 2
-image_path:
-order:
+title: Joomla
+image_path: /images/partners/logo-02.png
+order: '2'
 ---
 
 
