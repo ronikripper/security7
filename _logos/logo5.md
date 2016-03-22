@@ -1,7 +1,7 @@
 ---
 title: Shopify
 image_path: /images/partners/logo-05.png
-order: '0'
+order: '5'
 ---
 
 
