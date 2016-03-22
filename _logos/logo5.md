@@ -1,5 +1,7 @@
 ---
-title: logo5
-image_path:
-order:
+title: Shopify
+image_path: /images/partners/logo-05.png
+order: '5'
 ---
+
+
