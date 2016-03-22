@@ -168,11 +168,17 @@ title: Home Page
                     <div class="showbiz our-clients" data-left="#showbiz_left_3" data-right="#showbiz_right_3">
                          <div class="overflowholder">
                               <ul>
-                                   <li>
-                                        <div class="happy-clients-photo"><img src="images/happy-clients-01.jpg" alt="" /></div>
-                                        <div class="happy-clients-cite"><i class="ss-navigateleft"></i>Everything was thought out for your future needs. Plus, Evolve support is the best support I've ever experienced!"</div>
-                                        <div class="happy-clients-author">John Walker, <strong>CEO</strong></div>
-                                   </li>
+                                  {% assign testimonials = site.testimonials | sort: 'order' %}
+                                  {% for testimonial in testimonials %}
+                                  
+                                    <li>
+                                        <div class="happy-clients-photo"><img src="{{ testimonial.image_path }}" alt="" /></div>
+                                        <div class="happy-clients-cite"><i class="ss-navigateleft"></i>{{ testimonial.content }}</div>
+                                        <div class="happy-clients-author">{{ testimonial.author }}</div>
+                                    </li>
+                                  
+                                  {% endfor %}
+                                   
                                    <li>
                                         <div class="happy-clients-photo"><img src="images/happy-clients-02.jpg" alt="" /></div>
                                         <div class="happy-clients-cite"><i class="ss-navigateleft"></i>The nicest theme I ever worked with and I have worked with hundreds of theme, If you a thinking about getting this theme i’d definitely recommend it.</div>
