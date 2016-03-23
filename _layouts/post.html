@@ -32,7 +32,7 @@ layout: default
                <!-- Post -->
                <article class="post">
                     <figure class="post-img media">
-                         <div class="mediaholder"> <a> <img src="{{ post.image_path }}" alt=""/>
+                         <div class="mediaholder"> <a> <img src="{{ page.image_path }}" alt=""/>
                                    <div class="hovercover">
                                         <div class="hovericon"><i class="hoverlink"></i></div>
                                    </div>
@@ -42,9 +42,9 @@ layout: default
                     <section class="post-content">
                          <header class="meta">
                               <ul>
-                                   <li>{{ post.date | date: "%d %B %Y" }}</li>
+                                   <li>{{ page.date | date: "%d %B %Y" }}</li>
                               </ul>
-                              <h2>{{ post.title }}</h2>
+                              <h2>{{ page.title }}</h2>
                          </header>
                          {{ content }}
                     </section>
