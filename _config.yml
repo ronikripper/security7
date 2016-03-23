@@ -4,9 +4,9 @@ name: Security7
 description: "Security7 is a network and security systems integrator. We are experienced IT professionals and help businesses."
 url: "http://www.security7.net"
 collections:
-  logos:
-    output: true
   slideshows:
+    output: true
+  logos:
     output: true
   testimonials:
     output: true
