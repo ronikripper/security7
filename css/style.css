@@ -2855,6 +2855,10 @@ background-size: cover;
 	background-image: url(../images/parallex/parallex-inner-firewall-and-security.jpg) !important;
 }
 
+.spam-protection #parallex-inner {
+	background-image: url(../images/parallex/parallex-inner-spam-protection.jpg) !important;
+}
+
 #parallex-inner .container {
 	text-align:left;
 	padding: 50px 0 20px;
