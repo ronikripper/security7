@@ -2891,6 +2891,10 @@ background-size: cover;
 	background-image: url(../images/parallex/parallex-inner-barracuda.jpg) !important;
 }
 
+.comcast #parallex-inner {
+	background-image: url(../images/parallex/parallex-inner-comcast.jpg) !important;
+}
+
 #parallex-inner .container {
 	text-align:left;
 	padding: 50px 0 20px;
