@@ -2867,6 +2867,10 @@ background-size: cover;
 	background-image: url(../images/parallex/parallex-inner-penetration-and-assessment.jpg) !important;
 }
 
+.voip #parallex-inner {
+	background-image: url(../images/parallex/parallex-inner-voip.jpg) !important;
+}
+
 #parallex-inner .container {
 	text-align:left;
 	padding: 50px 0 20px;
