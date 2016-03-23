@@ -2883,6 +2883,10 @@ background-size: cover;
 	background-image: url(../images/parallex/parallex-inner-expert-technical-support.jpg) !important;
 }
 
+.security-awareness-training #parallex-inner {
+	background-image: url(../images/parallex/parallex-inner-security-awareness-training.jpg) !important;
+}
+
 #parallex-inner .container {
 	text-align:left;
 	padding: 50px 0 20px;
