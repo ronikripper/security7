@@ -2848,7 +2848,7 @@ background-size: cover;
 }
 
 .security-policy #parallex-inner {
-	background-image: url(../images/parallex/parallex-inner-security-policy.jpg);
+	background-image: url(../images/parallex/parallex-inner-security-policy.jpg) !important;
 }
 
 #parallex-inner .container {
