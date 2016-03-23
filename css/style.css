@@ -2919,6 +2919,10 @@ background-size: cover;
 	background-image: url(../images/parallex/parallex-inner-sentinelone.jpg) !important;
 }
 
+.about-us #parallex-inner {
+	background-image: url(../images/parallex/parallex-inner-about-us.jpg) !important;
+}
+
 #parallex-inner .container {
 	text-align:left;
 	padding: 50px 0 20px;
