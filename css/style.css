@@ -2935,6 +2935,10 @@ background-size: cover;
 	background-image: url(../images/parallex/parallex-inner-support.jpg) !important;
 }
 
+.how-to-request-support #parallex-inner {
+	background-image: url(../images/parallex/parallex-inner-how-to-request-support.jpg) !important;
+}
+
 #parallex-inner .container {
 	text-align:left;
 	padding: 50px 0 20px;
