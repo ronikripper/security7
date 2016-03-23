@@ -62,10 +62,12 @@ title: Blog
                <!-- Pagination -->
                <nav class="pagination">
                     <ul>
-                         <li><a href="#" class="current">1</a></li>
-                         <li><a href="#">2</a></li>
-                         <li><a href="#">3</a></li>
-                         <li><a href="#">Next</a></li>
+                        {% if paginator.previous_page %}
+                            <li><a href="{{ paginator.previous_page_path }}">Previous</a></li>
+                        {% endif %}
+                        {% if paginator.next_page %}
+                            <li><a href="{{ paginator.next_page_path }}">Next</a></li>
+                        {% endif %}
                     </ul>
                     <div class="clearfix"></div>
                </nav>
