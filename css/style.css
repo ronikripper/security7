@@ -2931,6 +2931,10 @@ background-size: cover;
 	background-image: url(../images/parallex/parallex-inner-testimonials.jpg) !important;
 }
 
+.support #parallex-inner {
+	background-image: url(../images/parallex/parallex-inner-support.jpg) !important;
+}
+
 #parallex-inner .container {
 	text-align:left;
 	padding: 50px 0 20px;
