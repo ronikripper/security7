@@ -2828,23 +2828,23 @@ background-size: cover;
 }
 
 .whysecurity7 #parallex-inner {
-	background-image: url(../images/parallex/parallex-inner-whysecurity7.jpg);
+	background-image: url(../images/parallex/parallex-inner-whysecurity7.jpg) !important;
 }
 
 .itservices #parallex-inner {
-	background-image: url(../images/parallex/parallex-inner-itservices.jpg);
+	background-image: url(../images/parallex/parallex-inner-itservices.jpg) !important;
 }
 
 .network-security #parallex-inner {
-	background-image: url(../images/parallex/parallex-inner-networksecurity.jpg);
+	background-image: url(../images/parallex/parallex-inner-networksecurity.jpg) !important;
 }
 
 .outsourcing-your-IT #parallex-inner {
-	background-image: url(../images/parallex/parallex-inner-outsourcing-your-IT.jpg);
+	background-image: url(../images/parallex/parallex-inner-outsourcing-your-IT.jpg) !important;
 }
 
 .hosted-microsoft-exchange #parallex-inner {
-	background-image: url(../images/parallex/parallex-inner-hosted-microsoft-exchange.jpg);
+	background-image: url(../images/parallex/parallex-inner-hosted-microsoft-exchange.jpg) !important;
 }
 
 .security-policy #parallex-inner {
