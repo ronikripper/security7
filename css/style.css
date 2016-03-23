@@ -2895,6 +2895,30 @@ background-size: cover;
 	background-image: url(../images/parallex/parallex-inner-comcast.jpg) !important;
 }
 
+.sophos #parallex-inner {
+	background-image: url(../images/parallex/parallex-inner-sophos.jpg) !important;
+}
+
+.fortinet #parallex-inner {
+	background-image: url(../images/parallex/parallex-inner-fortinet.jpg) !important;
+}
+
+.cisco #parallex-inner {
+	background-image: url(../images/parallex/parallex-inner-cisco.jpg) !important;
+}
+
+.radware #parallex-inner {
+	background-image: url(../images/parallex/parallex-inner-radware.jpg) !important;
+}
+
+.rapid7 #parallex-inner {
+	background-image: url(../images/parallex/parallex-inner-rapid7.jpg) !important;
+}
+
+.sentinelone #parallex-inner {
+	background-image: url(../images/parallex/parallex-inner-sentinelone.jpg) !important;
+}
+
 #parallex-inner .container {
 	text-align:left;
 	padding: 50px 0 20px;
