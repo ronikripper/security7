@@ -2923,6 +2923,14 @@ background-size: cover;
 	background-image: url(../images/parallex/parallex-inner-about-us.jpg) !important;
 }
 
+.contact-us #parallex-inner {
+	background-image: url(../images/parallex/parallex-inner-contact-us.jpg) !important;
+}
+
+.testimonials #parallex-inner {
+	background-image: url(../images/parallex/parallex-inner-testimonials.jpg) !important;
+}
+
 #parallex-inner .container {
 	text-align:left;
 	padding: 50px 0 20px;
