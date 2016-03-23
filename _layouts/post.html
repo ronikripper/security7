@@ -42,7 +42,7 @@ layout: default
                     <section class="post-content">
                          <header class="meta">
                               <ul>
-                                   <li>{{ page.date }}</li>
+                                   <li>{{ page.date | date: "%d %B %Y" }}</li>
                               </ul>
                               <h2>{{ page.title }}</h2>
                          </header>
