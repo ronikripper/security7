@@ -30,6 +30,7 @@ title: Blog
 <!-- Left Side Content -->
           <div class="twelve alt columns" style="margin-top: 30px;">
                <!-- Post -->
+               {% for post in site.posts %}
                <article class="post medium">
                     <div class="five alt columns alpha">
                          <figure class="post-img media">
@@ -50,13 +51,16 @@ title: Blog
                                         <li><a href="#">Wordpress</a>, <a href="#">Programming</a></li>
                                         <li><a href="#">3 Comments</a></li>
                                    </ul>
-                                   <h2><a href="blog-post.html">Standard post with preview image</a></h2>
+                                   <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
                               </header>
-                              <p>Cursus vestibulum varius hendrerit turpis quiseam cursus. Nonec bibendum vestibulum Kravida. Alentesque condimentum orci vel leo laoreet accumsan interdum eros vel sapien, [...]</p>
-                              <a href="blog-post.html" class="button line-color">Read More</a> </section>
+                              <p>{{ post.content }}</p>
+                              <a href="{{ post.url }}" class="button line-color">Read More</a> </section>
                     </div>
                     <div class="clearfix"></div>
                </article>
+               {% endfor %}
+               
+               
                <!-- Post -->
                <article class="post medium">
                     <div class="five alt columns alpha">
