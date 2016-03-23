@@ -2863,6 +2863,10 @@ background-size: cover;
 	background-image: url(../images/parallex/parallex-inner-2-factor-authentication.jpg) !important;
 }
 
+.penetration-and-assessment #parallex-inner {
+	background-image: url(../images/parallex/parallex-inner-penetration-and-assessment.jpg) !important;
+}
+
 #parallex-inner .container {
 	text-align:left;
 	padding: 50px 0 20px;
