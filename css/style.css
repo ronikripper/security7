@@ -2859,7 +2859,7 @@ background-size: cover;
 	background-image: url(../images/parallex/parallex-inner-spam-protection.jpg) !important;
 }
 
-.2-factor-authentication #parallex-inner {
+.s2-factor-authentication #parallex-inner {
 	background-image: url(../images/parallex/parallex-inner-2-factor-authentication.jpg) !important;
 }
 
