@@ -2835,6 +2835,10 @@ background-size: cover;
 	background-image: url(../images/parallex/parallex-inner-itservices.jpg);
 }
 
+.networksecurity #parallex-inner {
+	background-image: url(../images/parallex/parallex-inner-networksecurity.jpg);
+}
+
 #parallex-inner .container {
 	text-align:left;
 	padding: 50px 0 20px;
