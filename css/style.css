@@ -2843,6 +2843,10 @@ background-size: cover;
 	background-image: url(../images/parallex/parallex-inner-outsourcing-your-IT.jpg);
 }
 
+.hosted-microsoft-exchange #parallex-inner {
+	background-image: url(../images/parallex/parallex-inner-hosted-microsoft-exchange.jpg);
+}
+
 #parallex-inner .container {
 	text-align:left;
 	padding: 50px 0 20px;
