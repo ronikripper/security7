@@ -1,6 +1,6 @@
 ---
 title: Joomla
-image_path: /images/partners/logo-02.png
+image_path: /images/partners/barracuda-networks-logo.jpg
 order: '2'
 ---
 
