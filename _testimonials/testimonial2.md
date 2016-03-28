@@ -1,9 +1,9 @@
 ---
-title: Testimonial2
+title: Working with Comcast Business Services was awesome...
 image_path: /images/happy-clients-02.jpg
-author: 'Bob Woolner, <strong>Marketing Executive</strong>'
+author: 'John Gregory, <strong>Information Technology Director North of Boston Media Group</strong>'
 order: '2'
 ---
 
 
-The nicest theme I ever worked with and I have worked with hundreds of theme, If you a thinking about getting this theme i’d definitely recommend it.
+Working with Comcast Business Services was awesome. The installation was smooth and well organized, brisk and efficient. They were actually ahead of our deadline. What they're offering sounds almost too good to be true. I feel like we're on the forefront of our industry.
