@@ -2827,6 +2827,10 @@ background-size: cover;
 	margin-bottom:60px;
 }
 
+#parallex1.testimonialsHolder {
+	background-image: url(../images/parallex/testimonial-bg1.jpg);
+}
+
 .whysecurity7 #parallex-inner {
 	background-image: url(../images/parallex/parallex-inner-whysecurity7.jpg) !important;
 }
