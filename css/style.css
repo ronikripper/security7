@@ -2829,6 +2829,7 @@ background-size: cover;
 
 #parallex1.testimonialsHolder {
 	background-image: url(../images/parallex/testimonial-bg1.jpg);
+	background-size: cover;
 }
 
 .whysecurity7 #parallex-inner {
