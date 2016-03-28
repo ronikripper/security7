@@ -1,0 +1,197 @@
+---
+layout: default
+title: Blog
+---
+<!-- Content Wrapper
+================================================== -->
+<div id="content-wrapper">
+     <!-- Parallex Page Title -->
+     <div id="parallex-inner" class="parallex">
+          <div class="container editable">
+               <div class="eight columns"  data-animated="fadeInUp">
+                    <h1>Blog</h1>
+                    <p>sed quia non numquam eius modi tempora.</p>
+               </div>
+               <div class="eight columns">
+                    <nav id="breadcrumbs">
+                         <ul>
+                              <li><a href="#">Home</a></li>
+                              <li><a href="#">Pages</a></li>
+                              <li>Blog</li>
+                         </ul>
+                    </nav>
+               </div>
+          </div>
+     </div>
+     <!-- Container -->
+     <div class="container editable">
+
+
+<!-- Left Side Content -->
+          <div class="twelve alt columns" style="margin-top: 30px;">
+               <!-- Post -->
+               {% for post in site.posts %}
+               <article class="post medium">
+                    <div class="five alt columns alpha">
+                         <figure class="post-img media">
+                              <div class="mediaholder"> <a href="{{ post.url }}">
+                                        <img src="{{ post.image_path }}" alt=""/>
+                                        <div class="hovercover">
+                                             <div class="hovericon"><i class="hoverlink"></i></div>
+                                        </div>
+                                   </a> </div>
+                         </figure>
+                    </div>
+                    <div class="seven columns">
+                         <section class="post-content">
+                              <header class="meta">
+                                   <ul>
+                                        <li>{{ post.date | date: "%d %B %Y" }}</li>
+                                   </ul>
+                                   <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                              </header>
+                              <p>{{ post.content }}</p>
+                              <a href="{{ post.url }}" class="button line-color">Read More</a> </section>
+                    </div>
+                    <div class="clearfix"></div>
+               </article>
+               {% endfor %}
+               
+               
+              
+               <!-- Pagination -->
+               <nav class="pagination">
+                    <ul>
+                        {% if paginator.previous_page %}
+                            <li><a href="{{ paginator.previous_page_path }}">Previous</a></li>
+                        {% endif %}
+                        {% if paginator.next_page %}
+                            <li><a href="{{ paginator.next_page_path }}">Next</a></li>
+                        {% endif %}
+                    </ul>
+                    <div class="clearfix"></div>
+               </nav>
+          </div>
+          
+          
+<!-- Right sidebar -->
+          <div class="four columns">
+               <!-- Company Intro -->
+               <div class="widget">
+                    <h3 class="headline">Company Intro</h3>
+                    <span class="brd-headling"></span>
+                    <div class="clearfix"></div>
+                    <p> Cras scelerisque commodo odio. Phasellus dolor enim, faucibus egestas scelerisque hendrerit, aliquet sed. </p>
+               </div>
+               <br>
+               <!-- Search Form -->
+               <form class="search-form" action="#" method="get">
+               <button class="search-btn" type="submit"><i class="icon-search"></i></button>
+               <input class="search" type="text" onBlur="if(this.value=='')this.value='Search';" onFocus="if(this.value=='Search')this.value='';" value="Search" />
+               </form><br/>
+               <!-- Categories -->
+               <div class="widget">
+                    <h3 class="headline">Categories</h3>
+                    <span class="brd-headling"></span>
+                    <div class="clearfix"></div>
+                    <nav class="categories">
+                         <ul>
+                              <li><a href="#">Web Design</a></li>
+                              <li><a href="#">Print Media</a></li>
+                              <li><a href="#">Wordpress Development</a></li>
+                              <li><a href="#">Ecommerce Solutions</a></li>
+                              <li><a href="#">Photography & Branding</a></li>
+                         </ul>
+                    </nav>
+               </div>
+               <!-- Tabs -->
+               <div class="widget" style="margin: 40px 0 0 0;">
+                    <h3 class="headline">Blog Posts</h3>
+                    <span class="brd-headling"></span>
+                    <!-- Tabs Navigation -->
+                    <ul class="tabs-nav blog">
+                         <li class="active"><a href="#tab1" title="Recent Posts">Recent</a></li>
+                         <li><a href="#tab2" title="Popular Posts">Popular</a></li>
+                    </ul>
+                    <!-- Tabs Content -->
+                    <div class="tabs-container">
+                         <div class="tab-content" id="tab1">
+                              <!-- Recent Posts -->
+                              <ul class="widget-tabs">
+                                   <!-- Post #1 -->
+                                   <li>
+                                        <div class="widget-thumb"> <a href="blog-post.html"><img src="images/content/portfolio-01.jpg" alt="" /></a> </div>
+                                        <div class="widget-text">
+                                             <p><a href="blog-post.html">Recent gallery blog post</a></p>
+                                             <span>08 Jan 2014</span> </div>
+                                        <div class="clearfix"></div>
+                                   </li>
+                                   <!-- Post #2 -->
+                                   <li>
+                                        <div class="widget-thumb"> <a href="blog-post.html"><img src="images/content/portfolio-05.jpg" alt="" /></a> </div>
+                                        <div class="widget-text">
+                                             <p><a href="blog-post.html">Recent image portfolio blog post</a></p>
+                                             <span>05 Jan 2014</span> </div>
+                                        <div class="clearfix"></div>
+                                   </li>
+                                   <!-- Post #3 -->
+                                   <li>
+                                        <div class="widget-thumb"> <a href="blog-post.html"><img src="images/content/portfolio-07.jpg" alt="" /></a> </div>
+                                        <div class="widget-text">
+                                             <p><a href="blog-post.html">Video blog post preview gallery</a></p>
+                                             <span>31 Dec 2013</span> </div>
+                                        <div class="clearfix"></div>
+                                   </li>
+                              </ul>
+                         </div>
+                         <div class="tab-content" id="tab2">
+                              <!-- Popular Posts -->
+                              <ul class="widget-tabs">
+                                   <!-- Post #1 -->
+                                   <li>
+                                        <div class="widget-thumb"> <a href="blog-post.html"><img src="images/content/portfolio-03.jpg" alt="" /></a> </div>
+                                        <div class="widget-text">
+                                             <p><a href="blog-post.html">Popular gallery blog post</a></p>
+                                             <span>08 Jan 2014</span> </div>
+                                        <div class="clearfix"></div>
+                                   </li>
+                                   <!-- Post #2 -->
+                                   <li>
+                                        <div class="widget-thumb"> <a href="blog-post.html"><img src="images/content/portfolio-06.jpg" alt="" /></a> </div>
+                                        <div class="widget-text">
+                                             <p><a href="blog-post.html">Popular image portfolio blog post</a></p>
+                                             <span>05 Jan 2014</span> </div>
+                                        <div class="clearfix"></div>
+                                   </li>
+                                   <!-- Post #3 -->
+                                   <li>
+                                        <div class="widget-thumb"> <a href="blog-post.html"><img src="images/content/portfolio-09.jpg" alt="" /></a> </div>
+                                        <div class="widget-text">
+                                             <p><a href="blog-post.html">Video blog post preview gallery</a></p>
+                                             <span>31 Dec 2013</span> </div>
+                                        <div class="clearfix"></div>
+                                   </li>
+                              </ul>
+                         </div>
+                    </div>
+               </div>
+               <!-- Tags -->
+               <!-- Archives -->
+               <div class="widget">
+                    <h3 class="headline">Archives</h3>
+                    <span class="brd-headling"></span>
+                    <div class="clearfix"></div>
+                    <nav class="categories">
+                         <ul>
+                              <li><a href="#">January 2014</a></li>
+                              <li><a href="#">December 2013</a></li>
+                              <li><a href="#">November 2013</a></li>
+                         </ul>
+                    </nav>
+               </div>
+          </div>
+     </div>
+     <!-- Container / End -->
+     
+</div>
+<!-- Content Wrapper / End -->
