@@ -1,6 +1,6 @@
 ---
 title: Security is paramount in healthcare and other industry regulations...
-image_path:
+image_path: /images/nizhoni.png
 author: 'Jim Graham, <strong>chief information officer Nizhoni Health Systems</strong>'
 order: '3'
 ---
