@@ -29,7 +29,9 @@ title: News
 <!-- Left Side Content -->
           <div class="twelve alt columns" style="margin-top: 30px;">
                <!-- Post -->
-               {% for post in site.posts %}
+               
+               {% assign news = site.news | sort: 'order' %}
+               {% for new in news %}
                <article class="post medium">
                     <div class="five alt columns alpha">
                          <figure class="post-img media">
@@ -57,19 +59,6 @@ title: News
                {% endfor %}
                
                
-              
-               <!-- Pagination -->
-               <nav class="pagination">
-                    <ul>
-                        {% if paginator.previous_page %}
-                            <li><a href="{{ paginator.previous_page_path }}">Previous</a></li>
-                        {% endif %}
-                        {% if paginator.next_page %}
-                            <li><a href="{{ paginator.next_page_path }}">Next</a></li>
-                        {% endif %}
-                    </ul>
-                    <div class="clearfix"></div>
-               </nav>
           </div>
           
           
