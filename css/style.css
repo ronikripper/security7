@@ -2832,6 +2832,10 @@ background-size: cover;
 	background-size: cover;
 }
 
+.testimonialsHolder > .container {
+	padding-bottom: 40px;
+}
+
 .whysecurity7 #parallex-inner {
 	background-image: url(../images/parallex/parallex-inner-whysecurity7.jpg) !important;
 }
