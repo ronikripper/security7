@@ -1,6 +1,6 @@
 ---
 title: Working with Comcast Business Services was awesome...
-image_path: /images/happy-clients-02.jpg
+image_path: /images/north.png
 author: 'John Gregory, <strong>Information Technology Director North of Boston Media Group</strong>'
 order: '2'
 ---
