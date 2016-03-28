@@ -5917,6 +5917,7 @@ input.newsletter {
 }
 
 
+.container.editable ul { list-style: inherit; }
 
 /* Media Queries
 ====================================================================== */
