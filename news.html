@@ -46,13 +46,11 @@ title: News
                     <div class="seven columns">
                          <section class="post-content">
                               <header class="meta">
-                                   <ul>
-                                        <li>{{ post.date | date: "%d %B %Y" }}</li>
-                                   </ul>
-                                   <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                                   
+                                   <h2><a >{{ new.title }}</a></h2>
                               </header>
-                              <p>{{ post.content }}</p>
-                              <a href="{{ post.url }}" class="button line-color">Read More</a> </section>
+                              <p>{{ new.content }}</p>
+                              <a href="{{ new.link_url }}" target="_blank" class="button line-color">Read More</a> </section>
                     </div>
                     <div class="clearfix"></div>
                </article>
