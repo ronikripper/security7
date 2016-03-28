@@ -1,6 +1,6 @@
 ---
 title: In collaboration with Security7 Networks...
-image_path: /images/happy-clients-01.jpg
+image_path: /images/comcast.png
 author: 'Steve Walsh, <strong>vice president Comcast Business in Greater Boston</strong>'
 order: '1'
 ---
