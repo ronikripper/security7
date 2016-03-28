@@ -1,6 +1,6 @@
 ---
 title: "Security7's Attention to Customers Has Been Exceptional...."
-image_path:
+image_path: /images/rasky.png
 author: 'Ann Carter, <strong>CEO , Rasky Baerlein Strategic Communications</strong>'
 order: '4'
 ---
