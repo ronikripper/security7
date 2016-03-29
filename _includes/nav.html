@@ -14,7 +14,12 @@
   <div class="thirteen columns">
        <nav id="navigation" class="menu">
             <ul id="responsive">
-                 <li><a href="/index.html" id="current">Home</a>
+                 <li>
+                      {% if page.url == '/index.html' %}
+                        <a href="/index.html"  id="current">Home</a>
+                      {% else %}
+                        <a href="/index.html">Home</a>
+                      {% endif %}
                       <ul>
                            <li><a href="/why-security7.html">Why Security7?</a></li>
                       </ul>
