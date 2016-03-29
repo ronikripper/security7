@@ -40,20 +40,32 @@ layout: default
           </div>
           
 <!-- Rigth Sidebar-->
+          <!-- Right sidebar -->
           <div class="four columns">
-               <!-- Company Intro -->
-               <div class="widget">
-                    <h3 class="headline">Company Intro</h3>
+               <div class="widget" style="margin: 40px 0 0 0;">
+                    <h3 class="headline">Latest News</h3>
                     <span class="brd-headling"></span>
-                    <div class="clearfix"></div>
-                    <p> Cras scelerisque commodo odio. Phasellus dolor enim, faucibus egestas scelerisque hendrerit, aliquet sed. </p>
+                    
+                    <!-- Tabs Content -->
+                    <div class="tabs-container">
+                         <div class="tab-content" id="tab1">
+                              <!-- Recent Posts -->
+                              <ul class="widget-tabs" style="list-style:none;">
+                                   <!-- Post #1 -->
+                                   {% assign news = site.news | sort: 'order' %}
+                                   {% for new in news %}
+                                   <li>
+                                        <div class="widget-text">
+                                             <p><a href="{{ new.url }}">{{ new.title }}</a></p>
+                                              </div>
+                                        <div class="clearfix"></div>
+                                   </li>
+                                   {% endfor %}
+                              </ul>
+                         </div>
+                    </div>
                </div>
-               <br>
-               <!-- Search Form -->
-               <form class="search-form" action="#" method="get">
-               <button class="search-btn" type="submit"><i class="icon-search"></i></button>
-               <input class="search" type="text" onBlur="if(this.value=='')this.value='Search';" onFocus="if(this.value=='Search')this.value='';" value="Search" />
-               </form>
+               
           </div>
      </div>
      <!-- Container / End -->
