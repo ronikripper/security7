@@ -12,3 +12,10 @@ collections:
     output: true
   news:
     output: true
+defaults:
+  -
+    scope:
+      path: ""
+      type: "news"
+    values:
+      layout: "news-single"
