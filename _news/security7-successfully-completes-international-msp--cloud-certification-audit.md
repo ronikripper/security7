@@ -25,6 +25,8 @@ The UCS is based on a wide range of criteria used to ensure that service provide
 * The UCS audit is performed by an independent accounting firm
 
 
+&nbsp;
+
 “Security7 Networks is thrilled to have successfully completed our SSAE 16 and UCS examinations,” said Ray Scholl, Chief Information Security Officer. “This certification is a testament to our commitment to our customers and provides them with the confidence that our operations have been tested and audited to the highest standards possible.”
 
 Established in 2000 by Managed Service Providers, for Managed Service Providers, MSPAlliance is the world’s largest Professional Association and Accrediting Body for the Managed Services and Cloud Industry. Created to meet the needs of the Managed Services Professional, as well as to educate and protect the consumers of managed services and cloud, MSPAlliance works diligently to enhance the professionalism, ethics and credibility of its members and the industry worldwide.
