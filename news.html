@@ -72,9 +72,8 @@ title: News
                                    <!-- Post #1 -->
                                    {% for post in site.posts limit:3 %}
                                    <li>
-                                        <div class="widget-thumb"> <a href="{{ post.url }}"><img src="images/content/portfolio-01.jpg" alt="" /></a> </div>
                                         <div class="widget-text">
-                                             <p><a href="blog-post.html">{{ post.title }}</a></p>
+                                             <p><a href="{{ post.url }}">{{ post.title }}</a></p>
                                              <span>08 Jan 2014</span> </div>
                                         <div class="clearfix"></div>
                                    </li>
