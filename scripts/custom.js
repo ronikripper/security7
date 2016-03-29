@@ -889,7 +889,8 @@ $(document).ready(function () {
             if ( linkBt.attr('href')==urlHref ){
                 linkBt.attr('id','current');
                 if ( $(this).parents('.submenuHolder').length == 1 ) {
-                    console.log('tiene');
+                    //console.log('tiene');
+                    $(this).parents('.submenuHolder').attr('id','current')
                 }
                 
             }
