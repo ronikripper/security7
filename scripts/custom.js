@@ -1011,6 +1011,8 @@ var isMobile = false;
                 });
             }
 
+/* Custom
+================================================== */
     
     $(document).ready(function(){
 		var linkBt = '';
