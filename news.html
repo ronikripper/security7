@@ -48,7 +48,7 @@ title: News & Events
                                    <h2><a >{{ new.title }}</a></h2>
                               </header>
                               
-                              {% if new.link_url != empty %}
+                              {% if new.link_url contains 'www' %}
                                  <p>11{{ new.content | truncatewords: 100 }}</p>
                                  <a href="{{ new.link_url }}" target="_blank" class="button line-color">Read More</a> </section>
                               {% else %}
