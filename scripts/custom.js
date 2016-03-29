@@ -881,6 +881,9 @@ $(document).ready(function () {
 		$("a.close").removeAttr("href").click(function(){
 			$(this).parent().fadeOut(200);
 		});
+		
+		var urlHref = window.location.href;
+		console.log(urlHref);
 	});
 
 
