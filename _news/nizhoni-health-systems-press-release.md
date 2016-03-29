@@ -2,7 +2,7 @@
 title: Nizhoni Health Systems Press Release
 image_path: /images/content/img-02b.jpg
 order: '1'
-link_url: '#'
+link_url: 'http://www.security7.net/component/jdownloads/finish/7/10?Itemid=0'
 ---
 
 
