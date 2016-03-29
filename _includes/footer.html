@@ -36,7 +36,7 @@
                     <ul class="widget-tabs">
                         <!-- Post #1 -->
                         {% assign news = site.news limit:1 | sort: 'order' %}
-                        {% for new in news %}
+                        {% for new in news limit:1 %}
                         <li>
                             <div class="widget-thumb"> <a href="/news.html"><img src="{{ new.image_path }}" alt="" /></a> </div>
                             <div class="widget-text">
