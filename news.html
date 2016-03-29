@@ -49,11 +49,11 @@ title: News & Events
                               </header>
                               
                               {% if new.link_url == '' %}
-                                 <p>{{ new.content | truncatewords: 100 }}</p>
+                                 <p>11{{ new.content | truncatewords: 100 }}</p>
                                  <a href="{{ new.url }}" class="button line-color">Read More</a> </section>
                               {% endif %}
                               {% if new.link_url != '' %}
-                                 <p>{{ new.content }}</p>
+                                 <p>22{{ new.content }}</p>
                                  <a href="{{ new.link_url }}" target="_blank" class="button line-color">Read More</a> </section>
                               {% endif %}
                               
