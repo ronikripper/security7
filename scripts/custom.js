@@ -888,7 +888,7 @@ $(document).ready(function () {
             linkBt = $(this).find('> a');
             if ( linkBt.attr('href')==urlHref ){
                 linkBt.attr('id','current');
-                if ( $(this).parents('.sf-with-ul').length == 1 ) {
+                if ( $(this).parent('.sf-with-ul').length == 1 ) {
                     console.log('tiene');
                 }
                 
