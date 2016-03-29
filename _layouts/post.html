@@ -56,7 +56,7 @@ layout: default
                                    <li>
                                         <div class="widget-text">
                                              <p><a href="{{ post.url }}">{{ post.title }}</a></p>
-                                              </div>
+                                             <span>{{ post.date | date: "%d %B %Y" }}</span> </div>
                                         <div class="clearfix"></div>
                                    </li>
                                    {% endfor %}
