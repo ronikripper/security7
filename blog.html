@@ -87,7 +87,7 @@ title: Blog
                               <!-- Recent Posts -->
                               <ul class="widget-tabs" style="list-style:none;">
                                    <!-- Post #1 -->
-                                   {% assign news = site.news | sort: 'order' %}
+                                   {% assign news = site.news limit:1 | sort: 'order' %}
                                    {% for new in news %}
                                    <li>
                                         <div class="widget-text">
