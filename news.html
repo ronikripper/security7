@@ -74,7 +74,7 @@ title: News
                                    <li>
                                         <div class="widget-text">
                                              <p><a href="{{ post.url }}">{{ post.title }}</a></p>
-                                             <span>08 Jan 2014</span> </div>
+                                             <span>{{ post.date | date: "%d %B %Y" }}</span> </div>
                                         <div class="clearfix"></div>
                                    </li>
                                    {% endfor %}
