@@ -16,21 +16,14 @@ The UCS was the first certification created specifically for the managed service
 
 The UCS is based on a wide range of criteria used to ensure that service providers have met and surpassed well-established standards of excellence and client care, such as:
 
-Physical & Virtual Security
+* Physical & Virtual Security
+* Business & Financial stability
+* Appropriately documented policies and procedures
+* Efficiency in IT management practices
+* Customer data security and privacy
+* Company is under regular external review from the MSPAlliance and its auditors to continually maintain and improve standards of care of excellence
+* The UCS audit is performed by an independent accounting firm
 
-&nbsp; &nbsp; Business & Financial stability
-
-&nbsp; &nbsp; Appropriately documented policies and procedures
-
-&nbsp; &nbsp; Efficiency in IT management practices
-
-&nbsp; &nbsp; Customer data security and privacy
-
-&nbsp; &nbsp; Company is under regular external review from the MSPAlliance and its auditors to continually maintain and improve standards of care of excellence
-
-&nbsp; &nbsp; The UCS audit is performed by an independent accounting firm
-
-&nbsp;
 
 “Security7 Networks is thrilled to have successfully completed our SSAE 16 and UCS examinations,” said Ray Scholl, Chief Information Security Officer. “This certification is a testament to our commitment to our customers and provides them with the confidence that our operations have been tested and audited to the highest standards possible.”
 
