@@ -882,9 +882,14 @@ $(document).ready(function () {
 			$(this).parent().fadeOut(200);
 		});
 		
-		var urlHref = window.location.href.split('.net/')[1];
-		
-		console.log(urlHref);
+		var linkBt = '';
+		var urlHref = window.location.href.split('.net')[1];
+		$('#header #navigation li').each(function( index ) {
+            linkBt = $(this).find('> a');
+            if ( linkBt.attr('href')==urlHref ){
+                linkBt.attr('id','current');
+            }
+        });
 	});
 
 
