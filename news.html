@@ -50,7 +50,7 @@ title: News & Events
                               
                               {{ if new.link_url=='' }}
                                  <p>{{ new.content | truncatewords: 100 }}</p>
-                                 <a href="{{ new.url }}" target="_blank" class="button line-color">Read More</a> </section>
+                                 <a href="{{ new.url }}" class="button line-color">Read More</a> </section>
                               {% endif %}
                               {{ if new.link_url!=='' }}
                                  <p>{{ new.content }}</p>
