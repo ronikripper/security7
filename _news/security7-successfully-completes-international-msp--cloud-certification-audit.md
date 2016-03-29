@@ -1,7 +1,7 @@
 ---
 title: 'Security7 Successfully Completes International MSP & Cloud Certification Audit'
 image_path: /images/content/img-02b.jpg
-link_url: '#'
+link_url:
 order: '3'
 ---
 
