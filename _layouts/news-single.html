@@ -2,3 +2,45 @@
 layout: default
 ---
 
+<!-- Content Wrapper
+================================================== -->
+<div id="content-wrapper">
+
+
+     <!-- Container -->
+     <div class="container">
+
+
+<!-- Left Side Content -->
+          <div class="twelve alt columns" style="margin-top: 30px;">
+               <!-- Post -->
+               <article class="post">
+                    <figure class="post-img media">
+                         <div class="mediaholder"> <a> <img src="{{ page.image_path }}" alt=""/>
+                                   
+                              </a> </div>
+                    </figure>
+                    <section class="post-content">
+                         <header class="meta">
+                              <ul>
+                                   <li>{{ page.date | date: "%d %B %Y" }}</li>
+                              </ul>
+                              <h2><a>{{ page.title }}</a></h2>
+                         </header>
+                         <p>
+                         {{ page.content }}
+                         </p>
+                    </section>
+                    <div class="clearfix"></div>
+               </article>
+
+
+
+               
+          </div>
+          
+     </div>
+     <!-- Container / End -->
+     
+</div>
+<!-- Content Wrapper / End -->
