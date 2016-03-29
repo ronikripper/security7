@@ -890,7 +890,7 @@ $(document).ready(function () {
                 linkBt.attr('id','current');
                 if ( $(this).parents('.submenuHolder').length == 1 ) {
                     //console.log('tiene');
-                    $(this).parents('.submenuHolder').attr('id','current')
+                    $(this).parents('.submenuHolder').prev('a').attr('id','current');
                 }
                 
             }
