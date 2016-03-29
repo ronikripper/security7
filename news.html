@@ -49,12 +49,12 @@ title: News & Events
                               
                               {% if new.link_url contains 'www' %}
                                  <p>{{ new.content }}</p>
-                                 <a href="{{ new.link_url }}" target="_blank" class="button line-color">Read More</a> </section>
+                                 <a href="{{ new.link_url }}" target="_blank" class="button line-color">Read More</a>
                               {% else %}
                                  <p>{{ new.content | truncatewords: 30 }}</p>
-                                 <a href="{{ new.url }}" class="button line-color">Read More</a> </section>
+                                 <a href="{{ new.url }}" class="button line-color">Read More</a> 
                               {% endif %}
-                              
+                         </section>     
                     </div>
                     <div class="clearfix"></div>
                </article>
