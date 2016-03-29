@@ -882,7 +882,8 @@ $(document).ready(function () {
 			$(this).parent().fadeOut(200);
 		});
 		
-		var urlHref = window.location.href;
+		var urlHref = window.location.href.split('.net/')[1];
+		
 		console.log(urlHref);
 	});
 
