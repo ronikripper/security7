@@ -49,7 +49,7 @@ title: News & Events
                               </header>
                               
                               {% if new.link_url contains 'www' %}
-                                 <p>{{ new.content | truncatewords: 100 }}</p>
+                                 <p>{{ new.content }}</p>
                                  <a href="{{ new.link_url }}" target="_blank" class="button line-color">Read More</a> </section>
                               {% else %}
                                  <p>{{ new.content | truncatewords: 100 }}</p>
