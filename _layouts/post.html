@@ -33,8 +33,12 @@ layout: default
                <!-- Post -->
                <article class="post">
                     <figure class="post-img media">
-                         <div class="mediaholder"> 
-                          <img src="{{ page.image_path }}" alt=""/>
+                         <div class="mediaholder">
+                             {% if page.video_url contains 'iframe' %}
+                                 {{ page.video_url }}
+                              {% else %}
+                                  <img src="{{ page.image_path }}" alt=""/>
+                              {% endif %} 
                           </div>
                     </figure>
                     <div class="post-format">
