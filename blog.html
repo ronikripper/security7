@@ -30,6 +30,7 @@ title: Blog
 <!-- Left Side Content -->
           <div class="twelve alt columns" style="margin-top: 30px;">
                <!-- Post -->
+               {% assign i = false %}
                {% for post in site.posts %}
                <article class="post medium">
                     <div class="five alt columns alpha">
@@ -55,9 +56,8 @@ title: Blog
                     </div>
                     <div class="clearfix"></div>
                </article>
-               {% if post.next %}
+               
                  
-               {% endif %}
                
                {% endfor %}
                
