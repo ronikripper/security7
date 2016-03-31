@@ -1,5 +1,6 @@
 ---
 layout: post
 title: 
-image_path: 
+image_path:
+video_url:
 ---
