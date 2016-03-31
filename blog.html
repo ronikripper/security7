@@ -55,6 +55,10 @@ title: Blog
                     </div>
                     <div class="clearfix"></div>
                </article>
+               {% if page.next %}
+                 {{ page.next }}
+               {% endif %}
+               
                {% endfor %}
                
                
