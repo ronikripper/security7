@@ -1,9 +1,9 @@
 ---
 title: '2-Got an IT Security, Performance or Integration Problem?<br />Get Immediate, Expert Technical Support.'
 image_path: /images/rev/slider01-img01.png
-image_bg: ""
 link_label: Learn more
 link_url: '#'
+image_bg: ""
 order: '2'
 ---
 
