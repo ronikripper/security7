@@ -5919,6 +5919,19 @@ input.newsletter {
 
 .container.editable ul { list-style: inherit; list-style-position: inside; }
 
+.slideDataHolder { 
+    background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+    background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 );
+    padding: 60px 40px;
+    position: absolute;
+    top: 50%;
+    left: 120px;
+    width: 740px;
+    transform: translateY(-50%);
+}
+
 /* Media Queries
 ====================================================================== */
 
