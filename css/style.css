@@ -5932,6 +5932,8 @@ input.newsletter {
     transform: translateY(-50%);
 }
 
+.slideDataHolder .slideTxt { padding: 20px 0; }
+
 /* Media Queries
 ====================================================================== */
 
