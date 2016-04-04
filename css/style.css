@@ -5928,7 +5928,6 @@ input.newsletter {
     position: absolute;
     top: 50%;
     left: 120px;
-    width: 740px;
     transform: translateY(-50%);
 }
 
