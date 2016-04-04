@@ -7,10 +7,4 @@ order: '1'
 ---
 
 
-When it’s taking too long to troubleshoot your Cisco, Juniper, Check Point and Fortinet firewall,
-
-or get other day-to-day issues with IT hardware and software resolved, it’s time to work with people who know about VPNs,
-
-configuring firewalls, combatting advanced threats, and delivering responsive expert technical support.
-
-Learn more about all the ways we can help.
+Need to upgrade your firewall? Put in a secure wireless network? Implement an SSL VPN? We’ll help you create a budget, recommend best-in-class products, and get the work done -- reducing your IT project backlog. We can supplement your existing team or operate as your outsourced IT department. See a full list of the IT projects we can help you with.
