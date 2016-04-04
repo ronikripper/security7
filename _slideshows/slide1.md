@@ -7,4 +7,12 @@ order: '1'
 ---
 
 
-Need to upgrade your firewall? Put in a secure wireless network? Implement an SSL VPN? We’ll help you create a budget, recommend best-in-class products, and get the work done -- reducing your IT project backlog. We can supplement your existing team or operate as your outsourced IT department. See a full list of the IT projects we can help you with.
+Need to upgrade your firewall? Put in a secure wireless network?
+
+Implement an SSL VPN? We’ll help you create a budget, recommend best-in-class
+
+products, and get the work done – reducing your IT project backlog.
+
+We can supplement your existing team or operate as your outsourced IT department.
+
+See a full list of the IT projects we can help you with.
