@@ -2,7 +2,7 @@
 title: 'YOU’VE GOT A LONG LIST OF IT PROJECTS.<br />GET HELP PLANNING, SOURCING AND DOING THE WORK.'
 image_path: /images/rev/bgslide1.jpg
 link_label: Learn more
-link_url: '#'
+link_url: /expert-technical-support.html
 order: '1'
 ---
 
