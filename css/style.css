@@ -6139,7 +6139,7 @@ margin: 15px 0 25px 0;
  line-height: 32px;
 }
 
-.slideDataHolder { left: 80px; }
+.slideDataHolder { left: 80px; padding: 20px; }
 
 }
 
