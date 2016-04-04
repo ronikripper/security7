@@ -17,19 +17,9 @@ title: Security7 Homepage
                     {% for slideshow in slideshows %}
                     <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" >
                          
-                         <img src="images/rev/bg-slider-01.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                         <img src="{{ slideshow.image_path }}"  alt=""  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
                          
-                         <div class="tp-caption customin customout"
-						data-x="700"
-						data-y="80"
-						data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:5;scaleY:5;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="600"
-						data-start="1000"
-						data-easing="Power4.easeOut"
-						data-endspeed="500"
-						data-endeasing="Power4.easeOut"
-                      	style="z-index: 3"><img src="{{ slideshow.image_path }}" alt=""> </div>
+                         
                         
                          <div class="tp-caption medium_text ucase customin"
 						data-x="0"
