@@ -6195,5 +6195,6 @@ width: 90%;
 font-size: 52px;
 }
 
+.slideDataHolder { left: 0; } 
 .slideDataHolder .slideTxt { display: none; }
 }
