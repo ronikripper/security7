@@ -15,4 +15,6 @@ resolved,
 
 it’s time to work with people who know about VPNs, configuring firewalls, combatting
 
-advanced threats, and delivering responsive expert technical support. Learn more about all the ways we can help.
+advanced threats, and delivering responsive expert technical support.
+
+Learn more about all the ways we can help.
