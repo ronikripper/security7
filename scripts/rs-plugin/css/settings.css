@@ -881,7 +881,7 @@ border-style:none;
 
 .tp-simpleresponsive .caption,
 .tp-simpleresponsive .tp-caption {
-	position:absolute;
+	position:static;
 	visibility: hidden;
 	-webkit-font-smoothing: antialiased !important;
 }
