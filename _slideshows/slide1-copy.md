@@ -2,7 +2,7 @@
 title: 'GET 24X7 MANAGEMENT & MONITORING OF YOUR<br />CORPORATE SYSTEMS, NETWORKS AND APPLICATIONS.'
 image_path: /images/rev/bgslide2.jpg
 link_label: Learn more
-link_url: '#'
+link_url: /24-x-7-monitoring.html
 order: '2'
 ---
 
