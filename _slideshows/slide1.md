@@ -7,7 +7,7 @@ order: '1'
 ---
 
 
-Need to upgrade your firewall? Put in a secure wireless network?
+Need to upgrade your firewall? Put in a secure wireless network?&nbsp;
 
 Implement an SSL VPN? We’ll help you create a budget, recommend best-in-class
 
