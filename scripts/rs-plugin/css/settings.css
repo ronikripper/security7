@@ -809,7 +809,7 @@ border-style:none;
 		.tp-simpleresponsive  .button	{	padding:4px 8px 3px; line-height:25px !important; font-size:11px !important;font-weight:normal;	}
 		.tp-simpleresponsive  a.button { -webkit-transition: none; -moz-transition: none; -o-transition: none; -ms-transition: none;	 }
 
-
+        .tp-simpleresponsive  .tp-caption	{	line-height:16px !important; font-size:11px !important;}
 	}
 
     @media only screen and (min-width: 0px) and (max-width: 479px) {
