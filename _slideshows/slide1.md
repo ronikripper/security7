@@ -3,7 +3,6 @@ title: 'Got an IT Security, Performance or Integration Problem?<br />Get Immedia
 image_path: /images/rev/slider01-img01.png
 link_label: Learn more
 link_url: '#'
-image_bg: ""
 order: '1'
 ---
 
