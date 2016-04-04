@@ -6140,6 +6140,7 @@ margin: 15px 0 25px 0;
 }
 
 .slideDataHolder { left: 80px; padding: 20px; }
+.slideDataHolder .buttonLink { margin-left: 0 !important; }
 
 }
 
