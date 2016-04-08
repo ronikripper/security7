@@ -1015,6 +1015,8 @@ var isMobile = false;
 ================================================== */
     
     $(document).ready(function(){
+		
+		//Header nav active class
 		var linkBt = '';
 		var urlHref = window.location.href.split('.net')[1];
 		$('#header #navigation li').each(function( index ) {
@@ -1028,6 +1030,7 @@ var isMobile = false;
             }
         });
         
+        //Blog
         $('#content-wrapper .postHolder .postItem:odd').addClass('rgtline');
         $('#content-wrapper .postHolder .postItem:odd').find('.tline-row-l').removeClass('tline-row-l').addClass('tline-row-r');
         
