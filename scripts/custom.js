@@ -1029,6 +1029,7 @@ var isMobile = false;
         });
         
         $('#content-wrapper .postHolder .postItem:odd').addClass('rgtline');
+        $('#content-wrapper .postHolder .postItem:odd').find('.tline-row-l').removeClass('tline-row-l').addClass('tline-row-r');
         
 	});
     
