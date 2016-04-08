@@ -30,13 +30,13 @@ title: Blog
             
             <div class="container">
                 
-                <div id="tline-content">
+                <div id="tline-content" class="postHolder">
                     
             
                <!-- Post -->
                {% assign i = left %} 
                {% for post in site.posts %}
-               <article class="postHolder tline-box"> <span class="tline-row-l"></span>
+               <article class="postItem tline-box"> <span class="tline-row-l"></span>
                     
                          <figure class="post-img media">
                               <div class="mediaholder"> <a href="{{ post.url }}">
