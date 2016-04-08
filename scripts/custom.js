@@ -1027,6 +1027,9 @@ var isMobile = false;
                 
             }
         });
+        
+        $('#content-wrapper .postHolder .postItem:odd').addClass('rgtline');
+        
 	});
     
 /* ------------------ End Document ------------------ */
