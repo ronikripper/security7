@@ -27,59 +27,156 @@ title: Blog
      <div class="container editable">
 
         <section id="main-timeline">
-            
-            <div class="container">
-                
-                <div id="tline-content" class="postHolder">
-                    
-            
-               <!-- Post -->
-               {% assign i = left %} 
-               {% for post in site.posts %}
-               <article class="postItem tline-box"> <span class="tline-row-l"></span>
-                    
-                         <figure class="post-img media">
-                              <div class="mediaholder"> <a href="{{ post.url }}">
-                                        <section class="date"> <span class="day">{{ post.date | date: "%d" }}</span> <span class="month">{{ post.date | date: "%B" }}</span> </section>
-                                        <img src="{{ post.image_path }}" alt=""/>
-                                        <div class="hovercover">
-                                             <div class="hovericon"><i class="hoverlink"></i></div>
-                                        </div>
-                                   </a> 
-                               </div>
-                         </figure>
-                    
-                    <div class="tline-ecxt">
-                              <header class="meta">
-                                   <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-                              </header>
-                              <p>{{ post.excerpt }}</p>
-                              <a href="{{ post.url }}" class="button line-color">Read More</a>
+               <div class="container">
+                    <div id="tline-content">
+                         <div class="tline-topdate">October 2013</div>
+                         <article  class="tline-box"> <span class="tline-row-l"></span>
+                              <figure class="post-img media">
+                                   <div class="mediaholder"> <a href="blog-post.html">
+                                             <section class="date"> <span class="day">18</span> <span class="month">Oct</span> </section>
+                                             <img src="images/content/img-01.jpg" alt=""/>
+                                             <div class="hovercover">
+                                                  <div class="hovericon"><i class="hoverlink"></i></div>
+                                             </div>
+                                        </a> </div>
+                              </figure>
+                              <div class="tline-ecxt">
+                                   <header class="meta">
+                                        <ul>
+                                             <li><a href="#">Posted by Okathemes</a></li>
+                                             <li><a href="#">Wordpress</a>, <a href="#">Programming</a></li>
+                                             <li><a href="#">3 Comments</a></li>
+                                        </ul>
+                                        <h2><a href="blog-post.html">Standard post with preview image</a></h2>
+                                   </header>
+                                   <p>Nonec bibendum vestibulum Kravida. Alentesque condimentum orci vel leo laoreet accumsan interdum eros vel sapien, [...]</p>
+                                   <a href="blog-post.html" class="button line-color">Read More</a> </div>
+                         </article>
+                         <article  class="tline-box rgtline"> <span class="tline-row-r"></span>
+                              <figure class="post-img media">
+                                   <div class="mediaholder"> <a href="blog-post.html">
+                                             <section class="date"> <span class="day">22</span> <span class="month">Oct</span> </section>
+                                             <img src="images/content/img-02.jpg" alt=""/>
+                                             <div class="hovercover">
+                                                  <div class="hovericon"><i class="hoverlink"></i></div>
+                                             </div>
+                                        </a> </div>
+                              </figure>
+                              <div class="tline-ecxt">
+                                   <header class="meta">
+                                        <ul>
+                                             <li><a href="#">Posted by Okathemes</a></li>
+                                             <li><a href="#">Wordpress</a>, <a href="#">Programming</a></li>
+                                             <li><a href="#">3 Comments</a></li>
+                                        </ul>
+                                        <h2><a href="blog-post.html">Post with preview image</a></h2>
+                                   </header>
+                                   <p>Nonec bibendum vestibulum Kravida. Alentesque condimentum orci vel leo laoreet accumsan interdum eros vel sapien, [...]</p>
+                                   <a href="blog-post.html" class="button line-color">Read More</a> </div>
+                         </article>
+                         <article  class="tline-box"> <span class="tline-row-l"></span>
+                              <figure class="post-img media">
+                                   <div class="mediaholder"> <a href="blog-post.html">
+                                             <section class="date"> <span class="day">30</span> <span class="month">Oct</span> </section>
+                                             <iframe src="http://player.vimeo.com/video/66599774" width="500" height="280" ></iframe>
+                                             <div class="hovercover">
+                                                  <div class="hovericon"><i class="hoverlink"></i></div>
+                                             </div>
+                                        </a> </div>
+                              </figure>
+                              <div class="tline-ecxt">
+                                   <header class="meta">
+                                        <ul>
+                                             <li><a href="#">Posted by Okathemes</a></li>
+                                             <li><a href="#">Wordpress</a>, <a href="#">Programming</a></li>
+                                             <li><a href="#">3 Comments</a></li>
+                                        </ul>
+                                        <h2><a href="blog-post.html">Blog post with video preview</a></h2>
+                                   </header>
+                                   <p>Vestibulum hendrerit turpis quiseam cursus. Nonec bibendum vestibulum Kravida. Alentesque condimentum orci vel leo laoreet accumsan interdum eros vel sapien, [...]</p>
+                                   <a href="blog-post.html" class="button line-color">Read More</a> </div>
+                         </article>
+                         <article  class="tline-box rgtline"> <span class="tline-row-r"></span>
+                              <div class="tline-ecxt">
+                                   <header class="meta">
+                                        <ul>
+                                             <li><a href="#">Posted by Okathemes</a></li>
+                                             <li><a href="#">Wordpress</a>, <a href="#">Programming</a></li>
+                                             <li><a href="#">3 Comments</a></li>
+                                        </ul>
+                                        <h2><a href="blog-post.html">Post without preview image</a></h2>
+                                   </header>
+                                   <p>In massa turpis ornare nec commodo non, auctor vel felis. Etiam pharetra, turpis nec sollicitudin cursus vestibulum varius hendrerit turpis quiseam cursus. Nonec bibendum vestibulum Kravida.<br>
+                                        <br>
+                                        Alentesque condimentum orci vel leo laoreet accumsan interdum eros vel sapien tincidunt dignissim, [...]</p>
+                                   <a href="blog-post.html" class="button line-color">Read More</a> </div>
+                         </article>
+                         <hr class="vertical-space2">
+                         <div class="tline-topdate">November 2013</div>
+                         <hr class="vertical-space1">
+                         <article  class="tline-box rgtline"> <span class="tline-row-r"></span>
+                              <figure class="post-img media">
+                                   <div class="mediaholder"> <a href="blog-post.html">
+                                             <section class="date"> <span class="day">05</span> <span class="month">Nov</span> </section>
+                                             <img src="images/content/img-03.jpg" alt=""/>
+                                             <div class="hovercover">
+                                                  <div class="hovericon"><i class="hoverlink"></i></div>
+                                             </div>
+                                        </a> </div>
+                              </figure>
+                              <div class="tline-ecxt">
+                                   <header class="meta">
+                                        <ul>
+                                             <li><a href="#">Posted by Okathemes</a></li>
+                                             <li><a href="#">Wordpress</a>, <a href="#">Programming</a></li>
+                                             <li><a href="#">3 Comments</a></li>
+                                        </ul>
+                                        <h2><a href="blog-post.html">Standard post with preview image</a></h2>
+                                   </header>
+                                   <p>Turpis nec sollicitudin cursus vestibulum varius hendrerit turpis quiseam cursus. Nonec bibendum vestibulum Kravida., [...]</p>
+                                   <a href="blog-post.html" class="button line-color">Read More</a> </div>
+                         </article>
+                         <article  class="tline-box"> <span class="tline-row-l"></span>
+                              <figure class="post-img media">
+                                   <div class="mediaholder"> <a href="blog-post.html">
+                                             <section class="date"> <span class="day">10</span> <span class="month">Nov</span> </section>
+                                             <img src="images/content/img-02.jpg" alt=""/>
+                                             <div class="hovercover">
+                                                  <div class="hovericon"><i class="hoverlink"></i></div>
+                                             </div>
+                                        </a> </div>
+                              </figure>
+                              <div class="tline-ecxt">
+                                   <header class="meta">
+                                        <ul>
+                                             <li><a href="#">Posted by Okathemes</a></li>
+                                             <li><a href="#">Wordpress</a>, <a href="#">Programming</a></li>
+                                             <li><a href="#">3 Comments</a></li>
+                                        </ul>
+                                        <h2><a href="blog-post.html">Standard post with preview image</a></h2>
+                                   </header>
+                                   <p>In massa turpis ornare nec commodo non, auctor vel felis. Etiam pharetra, turpis nec sollicitudin cursus vestibulum varius hendrerit turpis quiseam cursus. Nonec bibendum vestibulum Kravida. Alentesque condimentum orci vel leo laoreet accumsan interdum eros vel sapien tincidunt dignissim, [...]</p>
+                                   <a href="blog-post.html" class="button line-color">Read More</a> </div>
+                         </article>
+                         <hr class="vertical-space1">
+                         <div class="tline-topdate enddte">January 2014</div>
                     </div>
-                    <div class="clearfix"></div>
-               </article>
-               
-               {% endfor %}
-               
-                </div>
-              
-               <!-- Pagination -->
-               <nav class="pagination">
-                    <ul>
-                        {% if paginator.previous_page %}
-                            <li><a href="{{ paginator.previous_page_path }}">Previous</a></li>
-                        {% endif %}
-                        {% if paginator.next_page %}
-                            <li><a href="{{ paginator.next_page_path }}">Next</a></li>
-                        {% endif %}
-                    </ul>
-                    <div class="clearfix"></div>
-               </nav>
-               
-               
-         
-          
-          </div>
+                    <!-- end-pin-content -->
+                    <hr class="vertical-space2 line-full">
+               </div>
+               <section class="container aligncenter">
+                    <div class="pagination">
+                         <ul>
+                              <li class="disabled">
+                              <li class="active"><a href="#">1</a></li>
+                              <li><a href="#">2</a></li>
+                              <li><a href="#">3</a></li>
+                              <li><a href="#">Next</a></li>
+                         </ul>
+                    </div>
+                    <hr class="vertical-space2">
+               </section>
+               <!-- container -->
           </section>
           
           <!-- Right sidebar -->
