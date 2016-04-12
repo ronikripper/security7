@@ -5,7 +5,7 @@ image_path: /images/content/data_retention_options.jpg
 date_day:
 date_month:
 video_url:
-order:
+order: '1'
 ---
 
 
@@ -17,7 +17,7 @@ As more data systems develop the need for structured data storage, the developme
 As it applies to modern-day data transmission, cables that are made of this fiber-optic technology can transfer up to a petabit of data per second. In other words, a cable that is made up of thousands of fiber optic wires have a potential bandwidth of multiple terabytes per second. In other words, that’s a lot of data. With this technology on hand and available, scientists have begun searching for ways to use optoelectronics to store information. Theoretically, the technology should produce great results as long as it can be utilized through a planned and structured interface.
 
 **“Superman Memory Crystal”**
-<br>The “Superman memory crystal” is just that interface. It is a five-dimensional storage device made of nanostructured glass that can store around 360 terabytes of information, and sustain that information for a long time, even at temperatures up to 1,000&ordm; C. In fact, they project that this material can store data at room temperature for as long as 14 billion years. The data is recorded on this synthetic material with the use of ultrafast lasers that produce extraordinarily short and intense pulses of light. Data is written in three layers of nanostructured dots that are separated by fine micrometers or a millionth of a meter.
+<br>The “Superman memory crystal” is just that interface. It is a five-dimensional storage device made of nanostructured glass that can store around 360 terabytes of information, and sustain that information for a long time, even at temperatures up to 1,000º C. In fact, they project that this material can store data at room temperature for as long as 14 billion years. The data is recorded on this synthetic material with the use of ultrafast lasers that produce extraordinarily short and intense pulses of light. Data is written in three layers of nanostructured dots that are separated by fine micrometers or a millionth of a meter.
 
 It has been mentioned that many of the most important works in history are now stored on these glass discs, including the Magna Carta, the King James Bible, Isaac Newton’s Opticks, and the Universal Declaration of Human Rights (UDHR). The UDHR was actually written and presented to UNESCO by the University of Southampton’s Optoelectronics Research Centre (ORC) at the closing ceremonies of their International Year of Light in Mexico.
 
