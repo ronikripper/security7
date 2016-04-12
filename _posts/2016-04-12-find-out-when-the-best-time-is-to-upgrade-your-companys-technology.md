@@ -5,7 +5,7 @@ image_path: /best_time_to_upgrade_technology.jpg
 date_day: '12'
 date_month: April
 video_url:
-order:
+order: '1'
 ---
 
 
