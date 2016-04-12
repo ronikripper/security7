@@ -1,7 +1,7 @@
 ---
 layout: post
-title: My First Blog Post
-image_path: /images/content/img-01a.jpg
+title: New Technology Delivers Staggering Data Retention Options
+image_path: /images/content/data_retention_options.jpg
 video_url:
 ---
 
