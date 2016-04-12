@@ -2,8 +2,8 @@
 layout: post
 title: Find Out When the Best Time is to Upgrade Your Company’s Technology
 image_path: /best_time_to_upgrade_technology.jpg
-date_day:
-date_month:
+date_day: '11'
+date_month: April
 video_url:
 ---
 
@@ -18,13 +18,9 @@ There are several different ways to take advantage of cloud computing with your 
 
 Here are just a few things that our IT technicians look for when determining if an organization needs to upgrade their technology.
 
-* **Hardware quality:**&nbsp;If your workplace is always having to deal with run-down, faulty computer equipment, then you want to upgrade your technology before it can cause any further damage. In this particular case, it would be most beneficial to upgrade to the cloud due to the lower price of stripped-down thin clients. By connecting thin clients to the cloud, they can be just as effective as a fully loaded workstation. On a related note, it’s important to consider a machine’s peripherals, like upgrading to USB 3.1.
-
-
-* **Operating systems:**&nbsp;Some organizations tend to cling to their favorite operating system long after its manufacturer pulls the plug on it. Two classic examples of this are Windows XP and Windows Server 2000. Without the necessary patches and security updates, outdated operating systems can quickly become both a liability and a risk. If you’re still using outdated software, then you’re in prime condition for a technology refresh. If you want to make updating your desktops as easy as possible, the cloud can be a great tool for remote monitoring and maintenance.
-
-
-* **Legacy applications:**&nbsp;The latest version of an application can provide a significant benefit, but only if you make sure that you won’t break your infrastructure by making an upgrade. It’s important that you look into what is required of your legacy application before making a hardware change or a shift to the cloud. As explained by InformationWeek: “Application upgrades that run locally on PC hardware also influence whether or not you should upgrade PC hardware for your end-users. If an application upgrade requires a significant boost in memory, processing, or graphics power, it may be the primary factor in deciding to upgrade.”
+* **Hardware quality:** If your workplace is always having to deal with run-down, faulty computer equipment, then you want to upgrade your technology before it can cause any further damage. In this particular case, it would be most beneficial to upgrade to the cloud due to the lower price of stripped-down thin clients. By connecting thin clients to the cloud, they can be just as effective as a fully loaded workstation. On a related note, it’s important to consider a machine’s peripherals, like upgrading to USB 3.1.
+* **Operating systems:** Some organizations tend to cling to their favorite operating system long after its manufacturer pulls the plug on it. Two classic examples of this are Windows XP and Windows Server 2000. Without the necessary patches and security updates, outdated operating systems can quickly become both a liability and a risk. If you’re still using outdated software, then you’re in prime condition for a technology refresh. If you want to make updating your desktops as easy as possible, the cloud can be a great tool for remote monitoring and maintenance.
+* **Legacy applications:** The latest version of an application can provide a significant benefit, but only if you make sure that you won’t break your infrastructure by making an upgrade. It’s important that you look into what is required of your legacy application before making a hardware change or a shift to the cloud. As explained by InformationWeek: “Application upgrades that run locally on PC hardware also influence whether or not you should upgrade PC hardware for your end-users. If an application upgrade requires a significant boost in memory, processing, or graphics power, it may be the primary factor in deciding to upgrade.”
 
 
 The answer for how you should approach the cloud and tech upgrades is clear: call Security7 Networks at (877) 664-9379.
