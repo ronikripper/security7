@@ -34,7 +34,8 @@ title: Blog
                     
             
                <!-- Post -->
-               {% for post in site.posts %}
+               {% assign posts = site.posts | sort: 'order' %}
+               {% for post in posts %}
                <article class="postItem tline-box"> <span class="tline-row-l"></span>
                     
                          <figure class="post-img media">
