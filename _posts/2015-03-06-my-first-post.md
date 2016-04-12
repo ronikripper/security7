@@ -2,6 +2,8 @@
 layout: post
 title: New Technology Delivers Staggering Data Retention Options
 image_path: /images/content/data_retention_options.jpg
+date_day:
+date_month:
 video_url:
 ---
 
