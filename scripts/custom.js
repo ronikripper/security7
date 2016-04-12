@@ -42,12 +42,7 @@
 
 /* 00 Preloader
 ================================================== */
-	$(window).load(function() { // makes sure the whole site is loaded
-		"use strict";
-			$('.ring').fadeOut(); // will first fade out the loading animation
-			$('.loader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
-			$('body').delay(350).css({'overflow':'visible'});
-		})	
+		
 
 
 /* 01 Sticky Header
