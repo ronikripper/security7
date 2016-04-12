@@ -2,7 +2,7 @@
 layout: post
 title: Find Out When the Best Time is to Upgrade Your Company’s Technology
 image_path: /best_time_to_upgrade_technology.jpg
-date_day: '12'
+date_day: '11'
 date_month: April
 video_url:
 order: '1'
