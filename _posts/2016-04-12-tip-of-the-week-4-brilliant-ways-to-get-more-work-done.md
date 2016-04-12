@@ -2,7 +2,7 @@
 layout: post
 title: 'Tip of the Week: 4 Brilliant Ways to Get More Work Done'
 image_path: /images/4_brilliant_ways_to_get_work_done.jpg
-date_day: '11'
+date_day: '12'
 date_month: April
 video_url:
 order: '0'
