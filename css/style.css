@@ -1872,6 +1872,7 @@ html[xmlns] .slides {
 	display:inline-block;
 	margin-right:10px;
 }
+.featured-desc-2 img { margin: 0 auto; } 
 .icon-left {
 	width: 48px;
 	height: 48px;
