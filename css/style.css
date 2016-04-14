@@ -1873,8 +1873,6 @@ html[xmlns] .slides {
 	display:inline-block;
 	margin-right:10px;
 }
-#whyChooseBox .featured-desc-2 { text-align: center; margin: 0; }
-#whyChooseBox .featured-desc-2 img { margin: 0 auto; } 
 .icon-left {
 	width: 48px;
 	height: 48px;
@@ -5937,6 +5935,8 @@ input.newsletter {
 
 .outsourcing-your-IT .form form .input input {  }
 
+#whyChooseBox .featured-desc-2 { text-align: center; margin: 0; }
+#whyChooseBox .featured-desc-2 img { margin: 0 auto; } 
 
 /* Media Queries
 ====================================================================== */
