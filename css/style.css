@@ -5938,6 +5938,8 @@ input.newsletter {
 #whyChooseBox .featured-desc-2 { text-align: center; margin: 0; }
 #whyChooseBox .featured-desc-2 img { margin: 0 auto; } 
 
+#aboutBox.bg-light-blue { margin-bottom:0; } 
+
 /* Media Queries
 ====================================================================== */
 
