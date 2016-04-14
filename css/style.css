@@ -5935,11 +5935,11 @@ input.newsletter {
 
 .outsourcing-your-IT .form form .input input {  }
 
-#whyChooseBox {  }
+#whyChooseBox { background: #f2f4f6; }
 #whyChooseBox .featured-desc-2 { text-align: center; margin: 0; }
 #whyChooseBox .featured-desc-2 img { margin: 0 auto; } 
 
-#aboutBox.bg-light-blue { margin-bottom:0; } 
+#aboutBox.bg-light-blue { background:#fff; border-top: 0 none; border-bottom: 0 none; margin-bottom:0; } 
 
 /* Media Queries
 ====================================================================== */
