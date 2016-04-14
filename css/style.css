@@ -1853,7 +1853,8 @@ html[xmlns] .slides {
 	color: #fff;
 }
 .featured-desc-2 {
-	text-align:center;
+	text-align: left;
+    margin: 40px 10px 0px 70px;
 }
 .featured-desc-2 h3 {
 	font-size: 18px;
@@ -1872,7 +1873,8 @@ html[xmlns] .slides {
 	display:inline-block;
 	margin-right:10px;
 }
-.featured-desc-2 img { margin: 0 auto; } 
+#whyChooseBox .featured-desc-2 { text-align: center; margin: 0; }
+#whyChooseBox .featured-desc-2 img { margin: 0 auto; } 
 .icon-left {
 	width: 48px;
 	height: 48px;
