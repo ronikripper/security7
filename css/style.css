@@ -5942,6 +5942,8 @@ input.newsletter {
 
 #aboutBox.bg-light-blue { background:#fff; border-top: 0 none; border-bottom: 0 none; margin-bottom:0; } 
 
+.boxHome { background: #232d37; }
+
 /* Media Queries
 ====================================================================== */
 
