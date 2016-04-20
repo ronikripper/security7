@@ -5702,7 +5702,7 @@ color:#afb4b9
 	color:#bcc1c5;
 }
 #footer .widget-text h4 a {
-	color:#bcc1c5;
+	color:#fff;
 }
 #footer .widget-text h4 a:hover {
 	color: #b9bec3;
@@ -5746,7 +5746,7 @@ color:#afb4b9
 	margin: 0 0 15px 0;
 }
 .get-in-touch p, .get-in-touch li, .get-in-touch a {
-	color: #bcc1c5 !important;
+	color: #fff !important;
 }
 .get-in-touch p {
 	margin: -2px 0 0 25px;
@@ -5755,7 +5755,7 @@ color:#afb4b9
 .get-in-touch li i {
 	float: left;
 	margin: 2px 0 0 0;
-	color: #bcc1c5;
+	color: #fff;
 }
 /* Search / Newsletter Inputs
 ====================================*/
