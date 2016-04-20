@@ -101,11 +101,10 @@ iframe,
 .featured-box:hover > .circle-2, .featured-box:hover > .square-2 { box-shadow: 0 0 0 1px rgba(95, 140, 180, 1); }
 
 
-
+.bg-color { background: #232d37; }
 
 iframe,
 .date span,
-.bg-color,
 #current:after,
 .menu ul > li > a:after,
 .pagination .current,
