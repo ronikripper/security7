@@ -5707,7 +5707,7 @@ color:#afb4b9
 	color:#fff;
 }
 #footer .widget-text h4 a:hover {
-	color: #b9bec3;
+	color: #fff !important;
 }
 #footer .widget-text span {
 	color: #a0a5aa;
