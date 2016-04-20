@@ -5944,7 +5944,8 @@ input.newsletter {
 
 #aboutBox.bg-light-blue { background:#fff; border-top: 0 none; border-bottom: 0 none; margin-bottom:0; } 
 
-.boxHome { background: #fff; }
+.boxMission { background: #fff; }
+.boxMission .icons-center { height: 137px; }
 
 /* Media Queries
 ====================================================================== */
