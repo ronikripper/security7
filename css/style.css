@@ -5677,6 +5677,7 @@ color:#afb4b9
 #footer .widget-tabs li:last-child {
 	border-bottom: 0;
 }
+#footer .widget-tabs li a { color: #fff; }
 #footer .widget-thumb a img {
 	display: block;
 	width: 70px;
