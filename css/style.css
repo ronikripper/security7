@@ -5678,6 +5678,7 @@ color:#afb4b9
 	border-bottom: 0;
 }
 #footer .widget-tabs li a { color: #fff; }
+#footer .widget-tabs li a:hover { text-decoration: underline; }
 #footer .widget-thumb a img {
 	display: block;
 	width: 70px;
