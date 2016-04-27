@@ -39,7 +39,7 @@
                         {% assign news = site.news limit:1 | sort: 'order' %}
                         {% for new in news limit:1 %}
                         <li>
-                            <div class="widget-thumb"> <a href="/news.html"><img src="{{ new.image_path }}" alt="" /></a> </div>
+                            <div class="widget-thumb"> <a href="/news.html"> </div>
                             <div class="widget-text">
                                <h4><a href="/news.html">{{ new.title }}</a></h4>
                             </div>
