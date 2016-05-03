@@ -1,6 +1,6 @@
 ---
 title: 'Security7 Networks launches new website!'
-image_path: /images/content/img-02b.jpg
+
 link_url:
 order: '4'
 ---
