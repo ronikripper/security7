@@ -1,7 +1,7 @@
 ---
 title: North Boston Media Group Case Study
 image_path: /images/northofboston.png
-link_url: '/images/north of boston media group case study.pdf'
+link_url: 'http://shy-gerbil.cloudvent.net/images/north of boston media group case study.pdf'
 order: '2'
 ---
 
