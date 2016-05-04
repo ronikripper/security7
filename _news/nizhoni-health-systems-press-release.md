@@ -1,7 +1,7 @@
 ---
 title: Nizhoni Health Systems Press Release
 
-link_url: 'http://shy-gerbil.cloudvent.net/images/nizhoni_health_systems.pdf?Itemid=0'
+link_url: 'http://shy-gerbil.cloudvent.net/images/nizhoni_health_systems.pdf'
 order: '1'
 ---
 
