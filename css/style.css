@@ -235,7 +235,7 @@
 	display: block;
 	width: 0px;
 	height: 3px;
-	background: #000;
+	background: rgb(6,202,185);
 	margin-top: 0px;
 	-webkit-transition-duration: 0.3s;
 	-moz-transition-duration: 0.3s;
