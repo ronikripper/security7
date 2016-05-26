@@ -65,7 +65,7 @@
 			header = $('#header'),
 			menu = $('.menu ul > li > a');
 		
-		var smallHeight = 70,   // set compact header height
+		var smallHeight = 60,   // set compact header height
 			durationAnim = 150, // animation speed
 
 			defaultHeight = parseInt(header.css('height')),
@@ -89,10 +89,10 @@
 				header = $('#header'),
 				src = logo.find('img').attr('src');
 
-			var	searchformMarginTop = defSearchformMarginTop - small_height/4,
-				menuPaddingTop = defMenuPaddingTop - small_height/4,
-				menuPaddingBottom = defMenuPaddingBottom - small_height/4,
-				logoMarginTop = defLogoMarginTop - 1 - small_height/4;
+			var	searchformMarginTop = defSearchformMarginTop - small_height/5,
+				menuPaddingTop = defMenuPaddingTop - small_height/5,
+				menuPaddingBottom = defMenuPaddingBottom - small_height/5,
+				logoMarginTop = defLogoMarginTop - 1 - small_height/5;
 
 			if ($(window).width() > 767) {
 				if (offset > 60) { // if it is over 60px (the initial width)
