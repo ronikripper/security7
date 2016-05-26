@@ -258,6 +258,7 @@ transition-delay: .2s;
 }
 #current {
 	border-top:3px solid;
+	border-color: #06cab9;
 }
 #current:after {
  transition-delay: .2s;
