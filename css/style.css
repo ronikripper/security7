@@ -235,7 +235,7 @@
 	display: block;
 	width: 0px;
 	height: 3px;
-	background: rgb(6,202,185);
+	background: #06cab9;
 	margin-top: 0px;
 	-webkit-transition-duration: 0.3s;
 	-moz-transition-duration: 0.3s;
@@ -266,7 +266,7 @@ transition-delay: .2s;
 -ms-transition-delay: .2s;
 -o-transition-delay: .2s;
 	width:0px;
-	background: rgb(6,202,185);
+	background: #06cab9;
 	-webkit-transition-duration: 0.3s;
 	-moz-transition-duration: 0.3s;
 	-ms-transition-duration: 0.3s;
