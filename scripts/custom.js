@@ -89,10 +89,10 @@
 				header = $('#header'),
 				src = logo.find('img').attr('src');
 
-			var	searchformMarginTop = defSearchformMarginTop - small_height/3,
-				menuPaddingTop = defMenuPaddingTop - small_height/3,
-				menuPaddingBottom = defMenuPaddingBottom - small_height/3,
-				logoMarginTop = defLogoMarginTop - 1 - small_height/3;
+			var	searchformMarginTop = defSearchformMarginTop - small_height/2,
+				menuPaddingTop = defMenuPaddingTop - small_height/2,
+				menuPaddingBottom = defMenuPaddingBottom - small_height/2,
+				logoMarginTop = defLogoMarginTop - 1 - small_height/2;
 
 			if ($(window).width() > 767) {
 				if (offset > 60) { // if it is over 60px (the initial width)
