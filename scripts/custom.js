@@ -65,7 +65,7 @@
 			header = $('#header'),
 			menu = $('.menu ul > li > a');
 		
-		var smallHeight = 60,   // set compact header height
+		var smallHeight = 10,   // set compact header height
 			durationAnim = 150, // animation speed
 
 			defaultHeight = parseInt(header.css('height')),
@@ -79,7 +79,7 @@
 		
 		
 		
-		var stickyValue = defaultHeight - 10;
+		var stickyValue = defaultHeight - 20;
 		stickyPosition(-stickyValue, null, "#header");
 		stickyPosition(stickyValue, "body", null);
 
