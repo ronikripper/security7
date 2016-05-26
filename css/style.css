@@ -5948,6 +5948,10 @@ input.newsletter {
 .boxMission { background: #fff; }
 .boxMission .icons-center { height: 137px; }
 
+.button7 { text-align: center; }
+.button7 img { float: left; }
+.button7 div { float: left; }
+
 /* Media Queries
 ====================================================================== */
 
