@@ -251,7 +251,7 @@ transition-delay: .2s;
 -ms-transition-delay: .2s;
 -o-transition-delay: .2s;
 	width:100%;
-	background: #6CAB9;
+	background: rgb(6,202,185);
 	-webkit-transition-duration: 0.3s;
 	-moz-transition-duration: 0.3s;
 	-ms-transition-duration: 0.3s;
