@@ -65,7 +65,7 @@
 			header = $('#header'),
 			menu = $('.menu ul > li > a');
 		
-		var smallHeight = 50,   // set compact header height
+		var smallHeight = 70,   // set compact header height
 			durationAnim = 150, // animation speed
 
 			defaultHeight = parseInt(header.css('height')),
