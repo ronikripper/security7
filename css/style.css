@@ -258,7 +258,7 @@ transition-delay: .2s;
 }
 #current {
 	border-top:3px solid;
-	border-color: #06cab9;
+	border-color: #06cab9 !important;
 }
 #current:after {
  transition-delay: .2s;
@@ -267,7 +267,6 @@ transition-delay: .2s;
 -ms-transition-delay: .2s;
 -o-transition-delay: .2s;
 	width:0px;
-	background: #06cab9;
 	-webkit-transition-duration: 0.3s;
 	-moz-transition-duration: 0.3s;
 	-ms-transition-duration: 0.3s;
