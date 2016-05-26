@@ -79,7 +79,7 @@
 		
 		
 		
-		var stickyValue = defaultHeight - 30;
+		var stickyValue = defaultHeight - 10;
 		stickyPosition(-stickyValue, null, "#header");
 		stickyPosition(stickyValue, "body", null);
 
