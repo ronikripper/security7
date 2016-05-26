@@ -5950,7 +5950,7 @@ input.newsletter {
 .boxMission .icons-center { height: 137px; }
 
 .button7 { text-align: center; }
-.button7 img { float: left; }
+.button7 img { float: left; width: 45px; }
 .button7 div { float: left; padding: 10px 0 0 8px; }
 
 /* Media Queries
