@@ -79,7 +79,7 @@
 		
 		
 		
-		var stickyValue = defaultHeight - 20;
+		var stickyValue = defaultHeight - 10;
 		stickyPosition(-stickyValue, null, "#header");
 		stickyPosition(stickyValue, "body", null);
 
@@ -89,10 +89,10 @@
 				header = $('#header'),
 				src = logo.find('img').attr('src');
 
-			var	searchformMarginTop = defSearchformMarginTop - small_height/5,
-				menuPaddingTop = defMenuPaddingTop - small_height/5,
-				menuPaddingBottom = defMenuPaddingBottom - small_height/5,
-				logoMarginTop = defLogoMarginTop - 1 - small_height/5;
+			var	searchformMarginTop = defSearchformMarginTop - small_height/4,
+				menuPaddingTop = defMenuPaddingTop - small_height/4,
+				menuPaddingBottom = defMenuPaddingBottom - small_height/4,
+				logoMarginTop = defLogoMarginTop - 1 - small_height/4;
 
 			if ($(window).width() > 767) {
 				if (offset > 60) { // if it is over 60px (the initial width)
