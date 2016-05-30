@@ -1041,7 +1041,7 @@ var isMobile = false;
         $('#content-wrapper .postHolder .postItem:odd').find('.tline-row-l').removeClass('tline-row-l').addClass('tline-row-r');
         
         
-        $('#fortinetIframe').load(function(){
+        $('#content-wrapper #fortinetIframe').load(function(){
             console.log('cargo');
             var iframe = $('#fortinetIframe').contents();
 
