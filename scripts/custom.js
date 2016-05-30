@@ -1041,14 +1041,14 @@ var isMobile = false;
         $('#content-wrapper .postHolder .postItem:odd').find('.tline-row-l').removeClass('tline-row-l').addClass('tline-row-r');
         
         
-        $('#content-wrapper #fortinetIframe').load(function(){
+        /*$('#content-wrapper #fortinetIframe').load(function(){
             var iframe = $('#content-wrapper #fortinetIframe').contents();
 
-            iframe.click(function(){
+            iframe.find("body #header #mainnav .menu li:last-child a").click(function(){
                 console.log('fsdfds');
                 return false;
             });
-        });
+        });*/
         
         
 	});
