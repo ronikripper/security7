@@ -1047,6 +1047,7 @@ var isMobile = false;
 
             iframe.find("#mainnav .menu li:last-child").click(function(){
                 console.log('fsdfds');
+                return false;
             });
         });
         
