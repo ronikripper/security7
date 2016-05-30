@@ -1044,7 +1044,7 @@ var isMobile = false;
         $('#content-wrapper #fortinetIframe').load(function(){
             var iframe = $('#content-wrapper #fortinetIframe').contents();
 
-            iframe.find("#header #mainnav .menu li:nth-child(3) a").click(function(){
+            iframe.find("#header #mainnav .menu li:last-child a").click(function(){
                 console.log('fsdfds');
                 return false;
             });
