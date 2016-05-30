@@ -1045,7 +1045,7 @@ var isMobile = false;
 
             var iframe = $('#fortinetIframe').contents();
 
-            iframe.find("#mainnav .menu li:last-child a").click(function(){
+            iframe.find("#header #mainnav .menu li:last-child a").click(function(){
                 console.log('fsdfds');
                 return false;
             });
